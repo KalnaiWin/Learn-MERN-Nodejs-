@@ -19,3 +19,13 @@
 ==== 2. Nodemon & setting up routes
 
 `npm install nodemon -D` --> support auto reload when change 
+
+==== 3. Optimize file and folder
+==== 4. Setting up database MongoDB 
+    - Create new project - create cluster - choose driver 
+    - DONT USE npm install mongodb, use this instead `npm install mongoose`
+    - copy password
+    - go to Network access -> add a ip allow any to use ( dont delete anything )
+    - `npm i dotenv` --> allow to access .env file
+
+mongodb+srv://nhbphuc2006_db_user:SG9FVX8OfySJNPhg@cluster0.equubyn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
