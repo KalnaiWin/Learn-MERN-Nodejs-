@@ -1,4 +1,8 @@
-1. 
+
+==== 1. Set up backend & basics
+
+`npm init -y`
+`npm install express` 
 1xx - informational
 2xx - success - 200: Ok: everything worked
               - 201: Created: new resources created
@@ -10,3 +14,8 @@
                     - 429: too many requests
 5xx - server errors - 500: internal server error: server broke
                     - 503: service unvailable: server is temporarily down.
+
+
+==== 2. Nodemon & setting up routes
+
+`npm install nodemon -D` --> support auto reload when change 
