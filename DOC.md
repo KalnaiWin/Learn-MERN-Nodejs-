@@ -42,4 +42,5 @@
     - Fetch API: `npm i axios`
     - Get data from fetching api: `npm i cors` for BACKEND
 ==== 9. Create Page
-    - 
+==== 10. Delete Function
+==== 11.Note Detail
