@@ -5,13 +5,8 @@ import CreatePage from "./pages/CreatePage";
 
 const App = () => {
   return (
-    <div data-theme="forest">
-      <button className="btn btn-neutral">Activate</button>
-      <button className="btn btn-primary">Activate</button>
-      <button className="btn btn-secondary">Activate</button>
-      <button className="btn btn-accent">Activate</button>
-      <button className="btn btn-ghost">Activate</button>
-      <button className="btn btn-link">Activate</button>
+    <div className="relative h-full w-full" data-theme="forest">
+      <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [bg:radial-gradient(125%_125%_at_50%_0%,#000_60%,#00FF9D40_100%)]"></div>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePage />} />
