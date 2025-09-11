@@ -28,4 +28,18 @@
     - go to Network access -> add a ip allow any to use ( dont delete anything )
     - `npm i dotenv` --> allow to access .env file
 
-mongodb+srv://nhbphuc2006_db_user:SG9FVX8OfySJNPhg@cluster0.equubyn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+==== 5.Completing controllers
+==== 6.Middleware & Rate limiting ( not allow users refresh or request over limit )
+    `npm i @upstash/ratelimit @upstash/redis`
+==== 7.FrontEnd setup
+    `npm create vite@latest` --> react --> javascript --> npm install
+    `npm install react-router`
+    `npm i react-hot-toast`
+    - Follow guide of vite tailwind to install
+    - daisyUI : `npm i -D daisyui@latest` -- themes should be all
+==== 8. HomePgae
+    - Install icon: `npm i lucide-react`
+    - Fetch API: `npm i axios`
+    - Get data from fetching api: `npm i cors` for BACKEND
+==== 9. Create Page
+    - 
